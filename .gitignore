@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.log
+.env
+.DS_Store
+.claude/
+.venv/
+venv/
+
+# Private config and certs — never commit
+.superpowers/
+client/config.json
+client/certs/
+mac-relay/certs/
+mac-relay/logs/
+mac-relay/media_cache/

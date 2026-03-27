@@ -1,0 +1,7 @@
+config.json
+preferences.json
+certs/
+__pycache__/
+*.pyc
+attachments/
+.env

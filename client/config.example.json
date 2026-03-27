@@ -1,0 +1,4 @@
+{
+  "relay_url": "wss://YOUR_MAC_IP:8765",
+  "auth_token": "YOUR_AUTH_TOKEN"
+}

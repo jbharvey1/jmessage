@@ -1,0 +1,2 @@
+textual>=3.0.0
+websockets>=13.0

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JMessage</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #1C1C1E;
+      --sidebar-bg: #2C2C2E;
+      --bubble-sent-imessage: #007AFF;
+      --bubble-sent-sms: #34C759;
+      --bubble-received: #3A3A3C;
+      --text-primary: #FFFFFF;
+      --text-secondary: #8E8E93;
+      --separator: #38383A;
+      --input-bg: #3A3A3C;
+    }
+
+    body {
+      font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #root { height: 100%; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="bundle.js"></script>
+</body>
+</html>

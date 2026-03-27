@@ -1,0 +1,9 @@
+{
+  "relay_url": "wss://YOUR_MAC_IP:8765",
+  "auth_token": "your-secret-token",
+  "certs": {
+    "ca": "certs/ca.pem",
+    "client_cert": "certs/client.pem",
+    "client_key": "certs/client.key"
+  }
+}

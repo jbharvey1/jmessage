@@ -1,0 +1,29 @@
+{
+  "name": "jmessage",
+  "version": "0.1.0",
+  "description": "iMessage client for Windows",
+  "main": "dist/main/main.js",
+  "scripts": {
+    "build:main": "esbuild src/main/main.ts --bundle --platform=node --external:electron --external:ws --outfile=dist/main/main.js",
+    "build:renderer": "esbuild src/renderer/index.tsx --bundle --outfile=dist/renderer/bundle.js --loader:.tsx=tsx --loader:.ts=ts --define:process.env.NODE_ENV=\\\"production\\\"",
+    "build": "npm run build:main && npm run build:renderer",
+    "start": "npm run build && electron .",
+    "dev": "concurrently \"npm run build:main\" \"npm run build:renderer\" && electron ."
+  },
+  "keywords": [],
+  "author": "jbharvey1",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "electron": "^41.1.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "concurrently": "^9.2.1",
+    "esbuild": "^0.27.4",
+    "typescript": "^6.0.2"
+  }
+}
