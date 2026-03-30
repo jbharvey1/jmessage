@@ -39,7 +39,7 @@ class NewConversationScreen(Screen):
     }
     #new-input {
         width: 50;
-        margin: 0 auto;
+        margin: 0 2;
         border: none;
     }
     #new-input:focus {

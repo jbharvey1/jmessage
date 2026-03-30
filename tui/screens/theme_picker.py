@@ -45,12 +45,12 @@ class ThemePickerScreen(Screen):
         layout: horizontal;
     }
     #theme-list {
-        width: 30;
+        width: 40;
         height: 1fr;
         padding: 1 2;
     }
     .theme-item {
-        height: 3;
+        height: 2;
         padding: 0 2;
         content-align: left middle;
     }
