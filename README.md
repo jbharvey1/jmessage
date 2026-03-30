@@ -229,6 +229,10 @@ JMessage is the only **terminal-native** option. No Electron, no browser, no mob
 
 JMessage uses only official macOS interfaces — AppleScript for sending, SQLite for reading chat.db and AddressBook, Full Disk Access permissions. No protocol reverse-engineering, no SIP disabling, no direct connection to Apple servers. The relay is an automation layer on top of Messages.app, similar to Automator or Shortcuts.
 
+## Shoutout
+
+The demo video features characters and scenarios inspired by [Pierce Brown's](https://www.piercebrown.com/) *Red Rising* saga. We're huge fans of the series — if you haven't read it, go pick it up. Hic sunt leones.
+
 ## License
 
 [MIT](LICENSE)
