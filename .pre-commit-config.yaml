@@ -1,0 +1,17 @@
+# Pre-commit config for TypeScript/React projects in c:\ai
+# Copy this file to your project root as .pre-commit-config.yaml
+# Then run: pre-commit install
+repos:
+  - repo: local
+    hooks:
+      - id: eslint
+        name: eslint
+        entry: npx eslint --fix
+        language: system
+        types_or: [javascript, jsx, ts, tsx]
+      - id: tsc
+        name: typescript type check
+        entry: npx tsc --noEmit
+        language: system
+        pass_filenames: false
+        types_or: [ts, tsx]
