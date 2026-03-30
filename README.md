@@ -11,7 +11,7 @@ Read, send, and manage iMessages from any machine — Windows, Linux, or SSH —
 [![Watch the demo](https://img.shields.io/badge/watch-YouTube%20Short-red.svg)](https://youtube.com/shorts/UrbmoQgQ2ZQ)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Textual](https://img.shields.io/badge/built%20with-Textual-green.svg)](https://textual.textualize.io/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+[![License: Source Available](https://img.shields.io/badge/license-Source%20Available-yellow.svg)](LICENSE)
 
 </div>
 
@@ -236,4 +236,4 @@ The demo video features characters and scenarios inspired by [Pierce Brown's](ht
 
 ## License
 
-[MIT](LICENSE)
+[Source Available](LICENSE) — free for personal, educational, and non-commercial use. Commercial use requires a separate license. See [LICENSE](LICENSE) for details.
