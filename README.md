@@ -12,6 +12,7 @@ Read, send, and manage iMessages from any machine — Windows, Linux, or SSH —
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Textual](https://img.shields.io/badge/built%20with-Textual-green.svg)](https://textual.textualize.io/)
 [![License: Source Available](https://img.shields.io/badge/license-Source%20Available-yellow.svg)](LICENSE)
+[![Follow on X](https://img.shields.io/badge/follow-%40boschzilla-black.svg?logo=x)](https://x.com/boschzilla)
 
 </div>
 
